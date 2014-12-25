@@ -13,6 +13,15 @@
 		FB5938651A4AADA3006C05B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5938641A4AADA3006C05B5 /* Images.xcassets */; };
 		FB5938681A4AADA3006C05B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5938661A4AADA3006C05B5 /* LaunchScreen.xib */; };
 		FB5938741A4AADA3006C05B5 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5938731A4AADA3006C05B5 /* testTests.swift */; };
+		FB5938811A4AB286006C05B5 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB59387E1A4AB286006C05B5 /* TwitterKit.framework */; };
+		FB5938821A4AB286006C05B5 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB59387F1A4AB286006C05B5 /* TwitterKitResources.bundle */; };
+		FB5938831A4AB286006C05B5 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5938801A4AB286006C05B5 /* Fabric.framework */; };
+		FB5938851A4AB3E5006C05B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5938841A4AB3E5006C05B5 /* LoginViewController.swift */; };
+		FB5938871A4AB769006C05B5 /* TwitterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5938861A4AB769006C05B5 /* TwitterAPI.swift */; };
+		FB5938891A4AB7B3006C05B5 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5938881A4AB7B3006C05B5 /* TimelineViewController.swift */; };
+		FB7023131A4BE9580006FCF8 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7023121A4BE9580006FCF8 /* TodoTableViewController.swift */; };
+		FB7023151A4BEB760006FCF8 /* TodoDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7023141A4BEB760006FCF8 /* TodoDataManager.swift */; };
+		FB7023171A4BEEF50006FCF8 /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7023161A4BEEF50006FCF8 /* TodoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		FB59386D1A4AADA3006C05B5 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5938721A4AADA3006C05B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5938731A4AADA3006C05B5 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
+		FB59387E1A4AB286006C05B5 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		FB59387F1A4AB286006C05B5 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		FB5938801A4AB286006C05B5 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		FB5938841A4AB3E5006C05B5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB5938861A4AB769006C05B5 /* TwitterAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterAPI.swift; sourceTree = "<group>"; };
+		FB5938881A4AB7B3006C05B5 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		FB7023121A4BE9580006FCF8 /* TodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		FB7023141A4BEB760006FCF8 /* TodoDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoDataManager.swift; sourceTree = "<group>"; };
+		FB7023161A4BEEF50006FCF8 /* TodoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5938811A4AB286006C05B5 /* TwitterKit.framework in Frameworks */,
+				FB5938831A4AB286006C05B5 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +79,9 @@
 		FB59384F1A4AADA3006C05B5 = {
 			isa = PBXGroup;
 			children = (
+				FB59387E1A4AB286006C05B5 /* TwitterKit.framework */,
+				FB59387F1A4AB286006C05B5 /* TwitterKitResources.bundle */,
+				FB5938801A4AB286006C05B5 /* Fabric.framework */,
 				FB59385A1A4AADA3006C05B5 /* test */,
 				FB5938701A4AADA3006C05B5 /* testTests */,
 				FB5938591A4AADA3006C05B5 /* Products */,
@@ -83,6 +106,12 @@
 				FB5938641A4AADA3006C05B5 /* Images.xcassets */,
 				FB5938661A4AADA3006C05B5 /* LaunchScreen.xib */,
 				FB59385B1A4AADA3006C05B5 /* Supporting Files */,
+				FB5938841A4AB3E5006C05B5 /* LoginViewController.swift */,
+				FB5938861A4AB769006C05B5 /* TwitterAPI.swift */,
+				FB5938881A4AB7B3006C05B5 /* TimelineViewController.swift */,
+				FB7023121A4BE9580006FCF8 /* TodoTableViewController.swift */,
+				FB7023141A4BEB760006FCF8 /* TodoDataManager.swift */,
+				FB7023161A4BEEF50006FCF8 /* TodoTableViewCell.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -122,6 +151,7 @@
 				FB5938541A4AADA3006C05B5 /* Sources */,
 				FB5938551A4AADA3006C05B5 /* Frameworks */,
 				FB5938561A4AADA3006C05B5 /* Resources */,
+				FB59387D1A4AB219006C05B5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -192,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5938821A4AB286006C05B5 /* TwitterKitResources.bundle in Resources */,
 				FB5938631A4AADA3006C05B5 /* Main.storyboard in Resources */,
 				FB5938681A4AADA3006C05B5 /* LaunchScreen.xib in Resources */,
 				FB5938651A4AADA3006C05B5 /* Images.xcassets in Resources */,
@@ -207,13 +238,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FB59387D1A4AB219006C05B5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 65129e9f1ca79745dd72129bdf43cef5b7019e6d 7ddcf40e73dc58c692644da04e2c8f54fafbff323cb12d1f758acf8b340b0e10";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB5938541A4AADA3006C05B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5938871A4AB769006C05B5 /* TwitterAPI.swift in Sources */,
+				FB7023131A4BE9580006FCF8 /* TodoTableViewController.swift in Sources */,
+				FB5938851A4AB3E5006C05B5 /* LoginViewController.swift in Sources */,
+				FB7023171A4BEEF50006FCF8 /* TodoTableViewCell.swift in Sources */,
+				FB7023151A4BEB760006FCF8 /* TodoDataManager.swift in Sources */,
 				FB5938601A4AADA3006C05B5 /* ViewController.swift in Sources */,
 				FB59385E1A4AADA3006C05B5 /* AppDelegate.swift in Sources */,
+				FB5938891A4AB7B3006C05B5 /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +389,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +403,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +466,7 @@
 				FB5938791A4AADA3006C05B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB59387A1A4AADA3006C05B5 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +475,7 @@
 				FB59387C1A4AADA3006C05B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
